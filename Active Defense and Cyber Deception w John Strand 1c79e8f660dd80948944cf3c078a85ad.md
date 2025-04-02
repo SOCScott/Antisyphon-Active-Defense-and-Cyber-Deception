@@ -1,8 +1,4 @@
-# Active Defense and Cyber Deception w/ John Strand
-
-# Day 1
-
----
+# Day 1 - Active Defense and Cyber Deception w/ John Strand
 
 ## Brief Summary
 
