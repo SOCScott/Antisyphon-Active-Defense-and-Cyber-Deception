@@ -1,8 +1,5 @@
 # Day 2 - Active Defense and Cyber Deception w/ John Strand
 
-# Day 2 - Active Defense and Cyber Deception w/ John Strand
-
----
 
 ## Brief Summary
 
@@ -16,8 +13,6 @@ Day 2 of John Strand's Active Defense and Cyber Deception class focused on netwo
 4. **Honey users provide early detection of lateral movement**: Creating fake user accounts that are never used legitimately serves as an effective tripwire for detecting password spray attacks and other post-exploitation techniques, allowing defenders to detect attackers early in their campaign.
 
 ## Core Concepts
-
----
 
 ## Advanced Command & Control (C2)
 
