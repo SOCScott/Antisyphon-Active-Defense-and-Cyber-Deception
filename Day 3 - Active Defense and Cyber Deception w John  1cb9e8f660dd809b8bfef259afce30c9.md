@@ -1,8 +1,6 @@
 # Day 3 - Active Defense and Cyber Deception w/ John Strand
 
-# Day 3 - Active Defense and Cyber Deception w/ John Strand
-
----
+https://www.youtube.com/watch?v=KinF1-o9GLQ
 
 ## Brief Summary
 
