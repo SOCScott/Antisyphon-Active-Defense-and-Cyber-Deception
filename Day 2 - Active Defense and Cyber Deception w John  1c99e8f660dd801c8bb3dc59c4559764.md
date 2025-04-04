@@ -1,5 +1,6 @@
 # Day 2 - Active Defense and Cyber Deception w/ John Strand
 
+https://www.youtube.com/watch?v=ZBD8hTrYmDw&list=WL
 
 ## Brief Summary
 
