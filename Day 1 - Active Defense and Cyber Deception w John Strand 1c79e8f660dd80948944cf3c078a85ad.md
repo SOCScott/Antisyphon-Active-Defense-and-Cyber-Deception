@@ -1,5 +1,7 @@
 # Day 1 - Active Defense and Cyber Deception w/ John Strand
 
+https://www.youtube.com/watch?v=7OTGoA5aIK4
+
 ## Brief Summary
 
 This set of notes covers Day 1 of John Strand's Active Defense and Cyber Deception class. John Strand emphasizes that cyber deception techniques offer quick, inexpensive wins for network defense, contrary to the industry's focus on expensive security products. He demonstrates practical examples through hands-on labs, particularly focusing on host firewalls to prevent lateral movement and using Blue Spawn (a mock EDR) to test detection capabilities against various attack techniques. The class establishes the foundation for understanding how deception can provide defenders with advantages by manipulating attackers' time and efforts.
