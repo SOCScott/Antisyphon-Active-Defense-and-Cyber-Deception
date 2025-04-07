@@ -1,8 +1,6 @@
 # Day 4 - Active Defense and Cyber Deception w/ John Strand
 
-# Day 4 - Active Defense and Cyber Deception w/ John Strand
-
----
+https://www.youtube.com/watch?v=1dSuVQtOROk
 
 ## Brief Summary
 
