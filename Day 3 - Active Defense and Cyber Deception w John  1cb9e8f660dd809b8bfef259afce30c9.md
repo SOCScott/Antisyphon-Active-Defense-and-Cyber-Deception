@@ -2,11 +2,11 @@
 
 https://www.youtube.com/watch?v=KinF1-o9GLQ
 
-## Brief Summary
+## Summary
 
 Day 3 of the Active Defense and Cyber Deception class focused on implementing various honeypot technologies and deception techniques. John demonstrated how to set up auto-dropping honeypots using bash scripting, create Port Spoof installations to confuse attackers' scanning tools, configure Cowrie honeypots to capture SSH attack attempts, and implement web honeypots that mimic Outlook Web Access portals. Throughout the session, John emphasized the practical implementation of these technologies, showing how they can significantly increase attack time while providing valuable intelligence about attackers' techniques and tools.
 
-## 4 Key Takeaways
+## Key Takeaways
 
 1. **Scripting honeypots is accessible**: Even with basic bash scripting skills, security professionals can create effective honeypot solutions like the auto-drop script demonstrated in class. These solutions don't require expensive commercial tools, just understanding of fundamental network concepts.
 2. **Port Spoof dramatically slows attackers**: By responding to port scans with misleading service information, Port Spoof can extend a simple 10-port scan from seconds to minutes, and a full port scan to over 65 hours, giving defenders valuable time to detect and respond.
@@ -188,18 +188,15 @@ Day 3 of the Active Defense and Cyber Deception class focused on implementing va
 ## Quiz Questions
 
 1. **Question**: In John Strand's approach to honeypots, what makes the TCP auto-drop script resistant to IP spoofing attacks?
-**Answer**: The script only blocks IPs that complete a full TCP three-way handshake, which is nearly impossible to spoof. The script waits for a connection with the "received" state, meaning a full connection was established, not just a SYN packet.
+    - **Answer**: The script only blocks IPs that complete a full TCP three-way handshake, which is nearly impossible to spoof. The script waits for a connection with the "received" state, meaning a full connection was established, not just a SYN packet.
 2. **Question**: According to the Port Spoof lab, approximately how long would it take to scan all 65,536 ports on a system running Port Spoof if scanning 10 ports took 36 seconds?
-**Answer**: Approximately 65 hours. The calculation shows that if 10 ports took 36 seconds, then scanning all 65,536 ports would take around 65 hours, which dramatically increases the attack time and creates opportunities for detection.
+    - **Answer**: Approximately 65 hours. The calculation shows that if 10 ports took 36 seconds, then scanning all 65,536 ports would take around 65 hours, which dramatically increases the attack time and creates opportunities for detection.
 3. **Question**: What are two key customizations that should be made to a Cowrie SSH honeypot to make it less detectable to attackers?
-**Answer**: The hostname should be changed from the default "server04" and the Message of the Day (MOTD) banner should be customized. Additionally, Cowrie automatically changes the SSH key fingerprint with each restart, which also helps avoid detection.
+    - **Answer**: The hostname should be changed from the default "server04" and the Message of the Day (MOTD) banner should be customized. Additionally, Cowrie automatically changes the SSH key fingerprint with each restart, which also helps avoid detection.
 4. **Question**: How can web honeypots potentially save an organization money, according to the example John shared about Apple's security team?
-**Answer**: Web honeypots can identify attackers early, allowing organizations to deny-list them, which reduces the volume of attack logs that need to be stored and processed in cloud environments. This saves on storage costs and data transfer fees while improving the signal-to-noise ratio for security monitoring.
+    - **Answer**: Web honeypots can identify attackers early, allowing organizations to deny-list them, which reduces the volume of attack logs that need to be stored and processed in cloud environments. This saves on storage costs and data transfer fees while improving the signal-to-noise ratio for security monitoring.
 
 ## Noteworthy Quotes
-
-> "We can do this with just the command line in a dream."
-> 
 
 > "This simple change in the way that you think about computer security makes all the difference in the world. My point is yes, you may feel like you're at a disadvantage as a defender, but the goal of this class is to change that around."
 > 
@@ -217,9 +214,6 @@ Day 3 of the Active Defense and Cyber Deception class focused on implementing va
 > 
 
 > "If you're spending a whole bunch of time, effort, and money standing up and running your deception, you're doing it wrong. Most of your deception should be the set it and forget it, Ron Popeil style, cyber deception, low interaction, high fidelity."
-> 
-
-> "When customizing calorie, configuration file, are there any default settings that can be commented out? Also renaming the host name, would it be smart to give it an organizational name. I like the organizational name approach, but most of the stuff in the config I leave as is."
 > 
 
 > "Detection time plus reaction time must be less than the amount of time it takes for an attacker to successfully try to break into an environment... We have now greatly increased the attack time and the attacker, within their OODA loop, we've blinded them."
