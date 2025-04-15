@@ -13,7 +13,7 @@ Day 2 of John Strand's Active Defense and Cyber Deception class focused on netwo
 3. **Attribution requires non-attributable infrastructure**: When implementing attribution technologies, it's critical to use servers and accounts that cannot be traced back to you or your organization. This includes using non-attributable email addresses, payment methods, and connecting through anonymizing services.
 4. **Honey users provide early detection of lateral movement**: Creating fake user accounts that are never used legitimately serves as an effective tripwire for detecting password spray attacks and other post-exploitation techniques, allowing defenders to detect attackers early in their campaign.
 
-## Core Concepts
+## Active Defense & Cyber Deception - Day 2 Study Notes
 
 ## Advanced Command & Control (C2)
 
