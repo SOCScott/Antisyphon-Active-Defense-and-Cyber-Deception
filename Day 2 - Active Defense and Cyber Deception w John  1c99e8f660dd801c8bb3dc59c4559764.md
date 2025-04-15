@@ -2,11 +2,11 @@
 
 https://www.youtube.com/watch?v=ZBD8hTrYmDw&list=WL
 
-## Brief Summary
+## Summary
 
 Day 2 of John Strand's Active Defense and Cyber Deception class focused on network-based threat hunting, advanced command and control techniques, and the implementation of various deception tools. The session covered analyzing obfuscated C2 traffic, using network threat hunting tools like RITA and AC Hunter, implementing honey users to detect password spray attacks, and configuring various cyber deception mechanisms. John emphasized the importance of understanding the legal and practical considerations when implementing these techniques, including how to set up non-attributable servers for attribution purposes.
 
-## 4 Key Takeaways
+## Key Takeaways
 
 1. **Advanced C2 detection requires specialized tools**: Traditional security tools struggle to detect obfuscated command and control traffic. Tools like RITA and AC Hunter can identify beaconing patterns and anomalous network behavior even when the traffic itself is disguised (like using ASP ViewState parameters or DNS queries for C2).
 2. **Cyber deception should annoy, not attack**: The "poison vs. venom" approach means setting traps for attackers to interact with (poison) rather than actively striking back (venom). Techniques like spider traps, fake DNS entries, and modified server banners can frustrate and slow down attackers without crossing legal boundaries.
@@ -170,13 +170,13 @@ Day 2 of John Strand's Active Defense and Cyber Deception class focused on netwo
 ## Quiz Questions
 
 1. **Question**: What makes ASP ViewState parameters particularly effective for command and control channels?
-**Answer**: ViewState parameters are effective because they are variable in length, contain seemingly random encoded data by default, and are commonly used in legitimate web applications, making the malicious traffic difficult to distinguish from normal traffic.
+    - **Answer**: ViewState parameters are effective because they are variable in length, contain seemingly random encoded data by default, and are commonly used in legitimate web applications, making the malicious traffic difficult to distinguish from normal traffic.
 2. **Question**: What is the difference between "poison" and "venom" in John Strand's cyber deception approach?
-**Answer**: "Poison" requires interaction from the attacker (like a honeypot that must be touched), while "venom" actively strikes out against attackers. John advocates for using "poison" approaches which are more passive, legal, and ethical.
+    - **Answer**: "Poison" requires interaction from the attacker (like a honeypot that must be touched), while "venom" actively strikes out against attackers. John advocates for using "poison" approaches which are more passive, legal, and ethical.
 3. **Question**: Why does John recommend using public WiFi (like McDonald's or hotels) when setting up non-attributable servers?
-**Answer**: Public WiFi networks route traffic through centralized points of presence that aggregate many users' connections, making it difficult to trace back to a specific individual. Additionally, these networks don't typically require identification to use, unlike home or office connections.
+    - **Answer**: Public WiFi networks route traffic through centralized points of presence that aggregate many users' connections, making it difficult to trace back to a specific individual. Additionally, these networks don't typically require identification to use, unlike home or office connections.
 4. **Question**: How can Spider Trap be used to disrupt automated web scanning tools?
-**Answer**: Spider Trap creates endless recursive links that automated crawlers follow, eventually filling their hard drives with useless files, consuming all available memory, or causing the scanner to crash—effectively disrupting the attacker's reconnaissance capabilities.
+    - **Answer**: Spider Trap creates endless recursive links that automated crawlers follow, eventually filling their hard drives with useless files, consuming all available memory, or causing the scanner to crash—effectively disrupting the attacker's reconnaissance capabilities.
 
 # Noteworthy Quotes
 
@@ -192,7 +192,7 @@ Day 2 of John Strand's Active Defense and Cyber Deception class focused on netwo
 > "I want you to go back to the OODA loop. Observe, Orient, decide and act. At this particular point, the attacker's OODA loop has been thrown into a tailspin... The adversary now knows that their ability to successfully observe is severely diminished."
 > 
 
-> "I fundamentally believe that it's not true. I told you in earlier sessions that I did hot nation state on nation state action. So hot right now. And we had a series of rules, and one of those primary rules was, don't get caught."
+> "I told you in earlier sessions that I did hot nation state on nation state action. So hot right now. And we had a series of rules, and one of those primary rules was, don't get caught."
 > 
 
 > "Getting compromised is acceptable... What is not acceptable is for an attacker to persist for months. What is not acceptable is for an attacker to pivot from one compromised system and take over the rest of the environment in minutes."
