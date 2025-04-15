@@ -2,18 +2,18 @@
 
 https://www.youtube.com/watch?v=7OTGoA5aIK4
 
-## Brief Summary
+## Summary
 
 This set of notes covers Day 1 of John Strand's Active Defense and Cyber Deception class. John Strand emphasizes that cyber deception techniques offer quick, inexpensive wins for network defense, contrary to the industry's focus on expensive security products. He demonstrates practical examples through hands-on labs, particularly focusing on host firewalls to prevent lateral movement and using Blue Spawn (a mock EDR) to test detection capabilities against various attack techniques. The class establishes the foundation for understanding how deception can provide defenders with advantages by manipulating attackers' time and efforts.
 
-## 4 Key Takeaways
+## Key Takeaways
 
 1. **Cyber deception provides quick security wins**: Unlike expensive security products, cyber deception techniques can be implemented quickly and inexpensively while dramatically improving security posture by creating detection opportunities and wasting attacker time.
 2. **Segment your network properly**: Implementing host-based firewalls between workstations prevents lateral movement attacks like pass-the-hash, dramatically reducing an attacker's ability to move throughout a network after compromising a single machine.
 3. **Active testing is critical**: Organizations should regularly test their security products against real attack techniques using tools like Atomic Red Team to identify detection gaps. Most security products have significant blind spots that only appear during active testing.
 4. **Detection time + reaction time must be less than attack time**: This formula demonstrates how cyber deception techniques work by increasing the time attackers spend on fake targets while decreasing your detection and reaction time through better alerting on those targets.
 
-## Core Concepts
+## Active Defense & Cyber Deception - Day 1 Study Notes
 
 ### What is Active Defense?
 
@@ -131,13 +131,13 @@ This set of notes covers Day 1 of John Strand's Active Defense and Cyber Decepti
 ## Quiz Questions
 
 1. **Question**: According to John Strand's formula, what relationship must exist between detection time, reaction time, and attack time for effective defense?
-**Answer**: Detection Time + Reaction Time must be less than Attack Time (DT + RT < AT).
+    - **Answer**: Detection Time + Reaction Time must be less than Attack Time (DT + RT < AT).
 2. **Question**: Why do pass-the-hash attacks continue to work in Windows environments since 1997?
-**Answer**: Windows treats password hashes as equivalent to actual passwords for authentication, and changing this would break nearly every Windows deployment on the planet.
+    - **Answer**: Windows treats password hashes as equivalent to actual passwords for authentication, and changing this would break nearly every Windows deployment on the planet.
 3. **Question**: How does implementing host-based firewalls between workstations improve security against lateral movement?
-**Answer**: Host-based firewalls block common lateral movement protocols like SMB (port 445), preventing techniques like PSExec and pass-the-hash from allowing attackers to move from one compromised workstation to others.
+    - **Answer**: Host-based firewalls block common lateral movement protocols like SMB (port 445), preventing techniques like PSExec and pass-the-hash from allowing attackers to move from one compromised workstation to others.
 4. **Question**: What are the main benefits of testing your security products with tools like Atomic Red Team?
-**Answer**: Testing reveals detection gaps, shows which security technologies are actually effective, provides quantifiable data about security posture, and helps create a gap analysis that can justify security budgets to management.
+    - **Answer**: Testing reveals detection gaps, shows which security technologies are actually effective, provides quantifiable data about security posture, and helps create a gap analysis that can justify security budgets to management.
 
 ## Noteworthy Quotes
 
