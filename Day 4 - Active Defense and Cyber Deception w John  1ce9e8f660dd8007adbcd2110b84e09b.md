@@ -205,8 +205,6 @@ Day 4 of the "Active Defense and Cyber Deception" class taught by John Strand. T
 
 ## Notable Quotes
 
-### Technical Insights
-
 > "Just because somebody's doing something bad to you does not give you the right to violate their rights."
 > 
 
