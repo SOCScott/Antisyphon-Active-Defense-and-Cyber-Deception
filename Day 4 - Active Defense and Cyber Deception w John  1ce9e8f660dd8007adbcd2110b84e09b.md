@@ -2,7 +2,7 @@
 
 https://www.youtube.com/watch?v=1dSuVQtOROk
 
-## Brief Summary
+## Summary
 
 Day 4 of the "Active Defense and Cyber Deception" class taught by John Strand. The session focuses on legal and ethical considerations in cybersecurity, particularly regarding cyber deception techniques. John explores case studies illustrating legal precedents, demonstrates practical tools like canary tokens, discusses attribution techniques, and shares real-world examples of successful cyber deception implementations. The class includes hands-on labs where students experiment with honey tokens, honey shares, and other deception strategies. The session concludes with John discussing the importance of accessible cybersecurity training and the motivation behind Anti-siphon's pay-what-you-can model for increasing diversity in the industry.
 
