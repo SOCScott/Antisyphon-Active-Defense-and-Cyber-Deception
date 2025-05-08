@@ -191,23 +191,19 @@ Day 4 of the "Active Defense and Cyber Deception" class taught by John Strand. T
 
 ## Quiz Questions
 
-### Question 1: What legal principle did Judge Walter Rice establish in the Susan Clements Jeffries case?
+1. **Question**: What legal principle did Judge Walter Rice establish in the Susan Clements Jeffries case?
+    - **Answer**: Judge Rice established that there's a "bright line" between acceptable and unacceptable action - it's acceptable to track a stolen computer's IP address or geolocation, but it crosses the line to intercept private communications or access private data, even if the person is using stolen property.
 
-**Answer:** Judge Rice established that there's a "bright line" between acceptable and unacceptable action - it's acceptable to track a stolen computer's IP address or geolocation, but it crosses the line to intercept private communications or access private data, even if the person is using stolen property.
+2. **Question**: Why would an attacker's attempt to use Nmap through Tor likely fail unless specifically configured?
+    - **Answer**: By default, Nmap uses raw TCP socket access which bypasses the Tor proxy. To properly route Nmap through Tor, an attacker would need to use the `-sT` flag for TCP connect scan, disable pinging, and specify exact ports, which would make the scan extremely slow and often impractical.
 
-### Question 2: Why would an attacker's attempt to use Nmap through Tor likely fail unless specifically configured?
+3. **Question**: What is the advantage of using "Word Web Bugs" over traditional macro-based document tracking?
+    - **Answer**: Word Web Bugs use CSS and image references instead of macros, making them compatible across different word processors (not just Microsoft Office), and they aren't blocked by Mark of the Web security that prevents macros from running in documents downloaded from the internet.
 
-**Answer:** By default, Nmap uses raw TCP socket access which bypasses the Tor proxy. To properly route Nmap through Tor, an attacker would need to use the `-sT` flag for TCP connect scan, disable pinging, and specify exact ports, which would make the scan extremely slow and often impractical.
+4. **Question**: When creating a honey admin account, why is disabling login hours preferable to disabling the account itself?
+    - **Answer**: Disabling login hours keeps the account appearing active (not locked) so attackers will target it, but prevents successful authentication at any time. Good password spraying tools avoid locked accounts, so this approach ensures the honey account remains an attractive target while preventing actual access.
 
-### Question 3: What is the advantage of using "Word Web Bugs" over traditional macro-based document tracking?
-
-**Answer:** Word Web Bugs use CSS and image references instead of macros, making them compatible across different word processors (not just Microsoft Office), and they aren't blocked by Mark of the Web security that prevents macros from running in documents downloaded from the internet.
-
-### Question 4: When creating a honey admin account, why is disabling login hours preferable to disabling the account itself?
-
-**Answer:** Disabling login hours keeps the account appearing active (not locked) so attackers will target it, but prevents successful authentication at any time. Good password spraying tools avoid locked accounts, so this approach ensures the honey account remains an attractive target while preventing actual access.
-
-## Noteworthy Quotes
+## Notable Quotes
 
 ### Technical Insights
 
