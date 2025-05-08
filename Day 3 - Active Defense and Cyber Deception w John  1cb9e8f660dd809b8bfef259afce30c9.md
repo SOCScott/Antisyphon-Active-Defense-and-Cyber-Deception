@@ -196,7 +196,7 @@ Day 3 of the Active Defense and Cyber Deception class focused on implementing va
 4. **Question**: How can web honeypots potentially save an organization money, according to the example John shared about Apple's security team?
     - **Answer**: Web honeypots can identify attackers early, allowing organizations to deny-list them, which reduces the volume of attack logs that need to be stored and processed in cloud environments. This saves on storage costs and data transfer fees while improving the signal-to-noise ratio for security monitoring.
 
-## Noteworthy Quotes
+## Notable Quotes
 
 > "This simple change in the way that you think about computer security makes all the difference in the world. My point is yes, you may feel like you're at a disadvantage as a defender, but the goal of this class is to change that around."
 > 
